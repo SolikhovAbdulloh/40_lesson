@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover {
+  color: yellow;
+}
+/* header{
+    top: 0px;
+    position: sticky;
+    z-index: 999;
+    background-color: #fff;
+} */
+button:hover {
+    background-color: black;
+    color: white;
+    
+}
+button {
+  border-radius: 4px;
+  padding: 12px 24px;
+  color: #fff;
+  width: 157px;
+  height: 44px;
+  background-color: #0b5353;
+  
+
+}
+
+.contiener {
+  margin: 0 auto;
+  padding: 20px 40px;
+  max-width: 1440px;
+}
+.b {
+  background-image: url(../img/tabiat.png);
+  height: 600px;
+  background-size: cover;
+  
+}
+
+@media (max-width:924px) {
+  .f{
+    display: none;
+  }
+}
+
+@media (max-width:528px) {
+  .g{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width:1224px) {
+   .h{
+    display: none;
+   } 
+}
+@media (max-width:784px) {
+   .f1{
+    font-size: 40px;
+    text-align: center;
+  } 
+}
+@media (max-width:584px) {
+   .f1{
+    font-size: 30px;
+  } 
+}
+@media (max-width:354px) {
+   .f1{
+    font-size: 20px;
+  } 
+}
+@media (max-width:284px) {
+   .f1{
+    font-size: 20px;
+  } 
+}
+
+@media (max-width:1260px) {
+  .d1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:center;
+    margin-top: 60vh;
+  }
+}
+@media (max-width:896px) {
+  .r{
+    display: none;
+  }
+  }
+  @media (max-width:1168px) {
+    .ff{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .left{
+      order: 1;
+      width: 100%;
+      
+    }
+    .left{
+      text-align: center;
+      margin: auto;
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width:1163px) {
+    .hh{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  @media (max-width:1231px) {
+    .g1{
+     width: 300px;
+     height: 400px;
+    }
+    .g1{
+      width: 100%;
+    height: 100%;
+      
+    }
+  }
+  @media (max-width:800px) {
+    .y1{
+      display: flex;
+      flex-wrap: wrap;
+      grid-template-columns:repeat(1,1fr) ;
+      gap: 30px;
+          
+    }
+  }
+  @media (max-width:1190px) {
+    .jj{
+      
+      margin-top: 40vh;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      width: 100%;
+      
+    }
+  }
+    @media (max-width:607px) {
+    .jj{
+      
+     
+      width: 100%;
+      
+    }
+  }
